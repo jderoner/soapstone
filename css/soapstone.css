@@ -1,0 +1,26 @@
+body { background: url('../images/background.jpg') no-repeat top center; margin: 0; padding: 0; font-family: 'Gotham Book', Gotham, 'Lato',  sans-serif; }
+
+a { font-weight: bold; color: #000; text-decoration: none;}
+
+#container { background: #50504c; width: 100%; height: 201px; }
+#container > div { width: 920px; margin: 0 auto; }
+#container > div h1 { width: 430px; text-align: center; float: left; font-size: 60px; line-height: 110%; background: url('../images/soapstone.png') no-repeat;
+						height: 200px; margin: 35px 20px 0 0; text-shadow: -2px 2px 4px black; z-index: 1001; position: relative; }
+#container > div h1 a { color: #FFF; font-weight: normal; display: block; height: 100%; width: 100%; }
+#container > div .stones { float: left; height: 201px; width: 300px; background: url('../images/stones.jpg') no-repeat top center; }
+
+#rules { border-top: 1px #fff solid; border-bottom: 1px solid #fff; opacity: 0.3; margin: 0 2% ; height: 160px; width: 96%; position: absolute; top: 220px; z-index: 1000; }
+#menu { float: right; width: 160px; list-style: none; margin: 50px 0 0 0; padding: 0; z-index: 1001; position: relative; }
+#menu li a { margin: 10px 0;}
+#menu li a { display: block; padding: 5px 10px; font-size: 18px; font-weight: normal; text-shadow: -1px 1px 2px black;  color: #bbb; text-decoration: none;  }
+#menu li a:hover, #menu li a.on { color: #FFF; font-weight: bold; }
+
+#contact { width: 920px; margin: 20px auto 0; height: 180px; color: #666666 }
+#contact p { width: 465px; float: right; font-size: 14px; line-height: 140%; }
+
+#terms { font-size: 13px; width: 920px; margin: 20px auto 0; color: #666666 }
+#terms div { width: 465px; float: right; line-height: 140%; }
+#terms h4 { font-weight: bold; font-size: 16px; }
+
+#copyright { margin-top: 100px; font-size: 12px; color: #A1A291; }
+
