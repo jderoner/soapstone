@@ -1,4 +1,8 @@
-body { background: url('../images/background.jpg') no-repeat top center; margin: 0; padding: 0; font-family: 'Gotham', Gotham, 'Lato',  sans-serif; }
+@font-face { font-family: Gotham; src: url('../fonts/Gotham-Medium.otf'); }
+@font-face { font-family: Gotham; font-weight: bold; src: url('Gotham-Bold.otf'); }
+@font-face { font-family: Gotham; font-weight: lighter; src: url('Gotham-Light.otf'); }
+
+body { background: url('../images/background.jpg') no-repeat top center; margin: 0; padding: 0; font-weight: lighter; font-family: 'Gotham', Gotham, sans-serif; }
 
 a { font-weight: bold; color: #000; text-decoration: none;}
 
@@ -10,10 +14,10 @@ a { font-weight: bold; color: #000; text-decoration: none;}
 #container > div .stones { float: left; height: 201px; width: 300px; background: url('../images/stones.jpg') no-repeat top center; }
 
 #rules { border-top: 1px #fff solid; border-bottom: 1px solid #fff; opacity: 0.3; margin: 0 2% ; height: 160px; width: 96%; position: absolute; top: 220px; z-index: 1000; }
-#menu { float: right; width: 160px; list-style: none; margin: 50px 0 0 0; padding: 0; z-index: 1001; position: relative; }
+#menu { float: right; width: 160px; list-style: none; margin: 55px 0 0 0; padding: 0; z-index: 1001; position: relative; }
 #menu li a { margin: 10px 0;}
-#menu li a { display: block; padding: 5px 10px; font-size: 18px; font-weight: normal; text-shadow: -1px 1px 2px black;  color: #bbb; text-decoration: none;  }
-#menu li a:hover, #menu li a.on { color: #FFF;  }
+#menu li a { display: block; padding: 5px 10px; font-size: 16px; font-weight: normal; text-shadow: -1px 1px 2px black;  color: #bbb; text-decoration: none;  }
+#menu li a:hover, #menu li a.on { color: #FFF; font-weight: normal;  }
 
 #contact { width: 920px; margin: 20px auto 0; height: 180px; color: #666666 }
 #contact p { width: 465px; float: right; font-size: 14px; line-height: 140%; }
